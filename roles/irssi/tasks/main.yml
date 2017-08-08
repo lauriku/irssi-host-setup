@@ -1,0 +1,6 @@
+---
+
+- name: Install irssi
+  apt:
+    name: irssi
+
