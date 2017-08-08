@@ -37,3 +37,8 @@
     - htop
     - vim
     - screen
+    - ntp
+
+- name: Set timezone to Helsinki
+  timezone:
+    name: Europe/Helsinki
